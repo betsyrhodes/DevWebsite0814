@@ -2,10 +2,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Poiret One', cursive;
 }
 
-a, p {
-	font-family: 'Cinzel', serif;
-}
-
 h1 {
 	font-size: 2.5em;
 	color: #424242;
@@ -36,11 +32,13 @@ h6 {
 }
 
 a {
+	font-family: 'Cinzel', serif;
 	color: #424242;
 	text-decoration: none;
 }
 
 p {
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 1.1em;
 	text-align: justify;
 }
@@ -136,7 +134,7 @@ nav .logo {
 }
 
 #intro .background {
-	background-image: url('img/ERhodesFortTryonGWBridge.jpg');
+	background-image: url('img/ERhodesFortTryonGWBridge_cropped.jpg');
 		background-attachment: fixed;
 }
 
@@ -193,7 +191,6 @@ nav .logo {
 }
 
 .project-info p {
-	font-family: 'Old Standard TT', serif;
 	font-size: .9em;
 }
 
