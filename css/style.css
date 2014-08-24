@@ -64,7 +64,7 @@ nav {
 }
 
 a li {
-	font-size: 0.7em;
+	font-size: 0.6em;
 }
 
 nav ul {
@@ -233,8 +233,8 @@ nav .logo {
 
 #sound-portfolio .picture {
 	padding: .2%;
-	background-color: rgba(255, 255, 250, .7);
-	box-shadow: .2px .2px 4px #FFFFFA;
+	background-color: rgba(255, 255, 250, .3);
+	box-shadow: 1px 1px 4px #FFFFFA;
 	border-radius: 3%;
 }
 
