@@ -115,11 +115,17 @@ nav .logo {
 	display: inline-block;
 	float: left;
 	text-shadow: 1px 1px 3px #969696;
+	padding-left: 13.3%;
+}
+
+#web-portfolio h2 {
+	padding-left: 13.3%;
 }
 
 #sound-portfolio h2 {
 	color: #BDBDBD;
 	text-shadow: 1px 1px 3px #858585;
+	padding-left: 12%;
 }
 
 #contact h2 {
@@ -167,6 +173,10 @@ nav .logo {
 #contact .background {
 	background-color: #EDEBE1;
 	padding: 2% 0;
+}
+
+#contact .contact-buttons {
+	margin-bottom: 2.5%;
 }
 
 .logo img {
