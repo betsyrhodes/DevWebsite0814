@@ -55,6 +55,42 @@ table {
 	margin: 1% auto;
 }
 
+.background {
+	width: 100%;
+	height: 100%;
+	padding: 2% 0;
+	background-position: center bottom;
+	background-repeat: none;
+	background-size: cover;
+}
+
+.content-container {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.content {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.dim-bkgnd {
+	background-color: rgba(43, 43, 43, .6);
+}
+
+
+/* Navigation Styles */
+
 nav {
 	position: fixed;
 	top: 0;
@@ -99,77 +135,6 @@ nav .logo {
 	padding: .5% 0 .5% 4%;
 }
 
-#intro h1 {
-	color: #EDEBE1;
-	text-shadow: 2px 2px 4px #000;
-	margin: 40% 0;
-}
-
-#about p {
-	width: 50%;
-	margin: auto;
-	padding: 1% 0;
-	font-weight: 700;
-	color: #2C2D33;
-}
-
-#about h2 {
-	text-shadow: 1px 1px 3px #969696;
-}
-
-#sound-portfolio h2 {
-	color: #BDBDBD;
-	text-shadow: 1px 1px 3px #858585;
-}
-
-#contact h2 {
-	text-align: center;
-}
-
-#web-portfolio .project-info p {
-	margin: 4% 10%;
-	font-size: 1em;
-}
-
-#sound-portfolio .project-info p {
-	margin: 2% 5% 1% 5%;
-}
-
-#intro .background {
-	background-image: url('img/ERhodesFortTryonGWBridge.jpg');
-		background-attachment: fixed;
-}
-
-#about .background {
-	background-color: #C4C6CF;
-}
-
-#about .contact-buttons {
-	text-align: right;
-	padding: 1% 15%;
-}
-
-#web-portfolio .background {
-	background-color: #FFFFFA;
-}
-
-#web-portfolio .project-info {
-	width: 35%;
-}
-
-#sound-portfolio .background {
-	background-color: #2C2D33;
-}
-
-#sound-portfolio .project-info {
-	width: 23%;
-}
-
-#contact .background {
-	background-color: #EDEBE1;
-	padding: 2% 0;
-}
-
 .logo img {
 	width: 35px;
 	height: 35px;
@@ -183,32 +148,56 @@ nav .logo {
 	padding: 0 3%;
 }
 
-.project-info h5 {
-	margin: 1.5% 0 0 2%;
-	text-align: left;
+.logo {
+	position: relative;
+	display: table-cell;
 }
 
-.project-info h6 {
-	margin: 6% 0 0 1%;
+/* Intro Section Styles */
+
+#intro h1 {
+	color: #EDEBE1;
+	text-shadow: 2px 2px 4px #000;
+	margin: 40% 0;
 }
+
+#intro .background {
+	background-image: url('img/ERhodesFortTryonGWBridge.jpg');
+		background-attachment: fixed;
+}
+
+
+/* About Section Styles */
+
+#about h2 {
+	text-shadow: 1px 1px 3px #969696;
+}
+
+#about p {
+	width: 50%;
+	margin: auto;
+	padding: 1% 0;
+	font-weight: 700;
+	color: #2C2D33;
+}
+
+#about .background {
+	background-color: #C4C6CF;
+}
+
+
+/* Portfolio Sections Style */
 
 .project-info p {
 	font-family: 'Old Standard TT', serif;
 	font-size: .9em;
 }
 
-.background {
-	width: 100%;
-	height: 100%;
-	padding: 2% 0;
-	background-position: center bottom;
-	background-repeat: none;
-	background-size: cover;
-}
-
-.logo {
-	position: relative;
-	display: table-cell;
+.project-info {
+	position: absolute;
+	text-shadow: 2px 2px 4px #000;
+	color: white;
+	padding-bottom: 1%;
 }
 
 .picture {
@@ -219,33 +208,72 @@ nav .logo {
 	background-size: cover;
 }
 
-.content-container {
-	display: table;
-	table-layout: fixed;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	position: relative;
+/* Web Portfolio Styles */
+
+#web-portfolio .project-info p {
+	margin: 4% 10%;
+	font-size: 1em;
 }
 
-.content {
-	width: 100%;
-	display: table-cell;
-	vertical-align: middle;
+#web-portfolio .background {
+	background-color: #FFFFFA;
+}
+
+#web-portfolio .project-info {
+	width: 35%;
+}
+
+.project-info h5 {
+	margin: 1.5% 0 0 2%;
+	text-align: left;
+}
+
+
+/* Sound Porfolio Styles */
+
+#sound-portfolio h2 {
+	color: #BDBDBD;
+	text-shadow: 1px 1px 3px #858585;
+	text-align: center;
+	padding: 1% 0 8% 0;
+}
+
+#sound-portfolio .project-info p {
+	margin: 2% 5% 1% 5%;
+}
+
+#sound-portfolio .background {
+	background-color: #2C2D33;
+}
+
+#sound-portfolio .project-info {
+	width: 23%;
+}
+
+.project-info h6 {
+	margin: 6% 0 0 1%;
+}
+
+#sound-bar {
+	width: 40%;
+	margin: auto;
+	border-bottom: 2px solid black;
+}
+
+.sound-bar-pic {
+/*	width: 100%;
+	height: auto;*/
+	padding: 0 .2%;
+	border: ;
+}
+
+/* Contact Section Styles */
+
+#contact h2 {
 	text-align: center;
 }
 
-.project-info {
-	position: absolute;
-	text-shadow: 2px 2px 4px #000;
-	color: white;
-	padding-bottom: 1%;
-}
-
-.hidden {
-	display: none;
-}
-
-.dim-bkgnd {
-	background-color: rgba(43, 43, 43, .6);
+#contact .background {
+	background-color: #EDEBE1;
+	padding: 2% 0;
 }
