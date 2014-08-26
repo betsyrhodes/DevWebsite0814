@@ -40,8 +40,8 @@ a {
 
 p {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.3em;
-	text-align: justify;
+	font-size: 1.56em;
+	text-align: left;
 	margin: 0;
 }
 
@@ -396,8 +396,8 @@ nav .nav-logo {
 
 #sound-portfolio .project-info {
 	width: 95%;
-	text-shadow: 1px 1px 2px #000;
-	color: white;
+	text-shadow: none;
+	color: #FFFEFA;
 }
 
 .project-info h6 {
