@@ -40,8 +40,8 @@ a {
 
 p {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.3em;
-	text-align: justify;
+	font-size: 1.56em;
+	text-align: left;
 	margin: 0;
 }
 
@@ -291,7 +291,7 @@ nav .nav-logo {
 
 #web-portfolio .picture {
 	position: absolute;
-	width: 150%;
+	width: 200%;
 	padding: .2%;
 	background-color: rgba(44, 45, 51, .8);
 	box-shadow: 1px 1px 4px #2C2D33;
@@ -299,8 +299,8 @@ nav .nav-logo {
 }
 
 [data-id='101'] .picture {
-	top: 133%;
-	right: 40%;
+	top: 180%;
+	right: 38%;
 }
 
 [data-id='102'] .picture {
@@ -309,34 +309,34 @@ nav .nav-logo {
 }
 
 [data-id='103'] .picture {
-	top: 120%;
-	left: 50%;
+	top: 130%;
+	left: 5%;
 }
 
 [data-id='104'] .picture {
-	bottom: 130%;
-	left: 69%;
+	bottom: 132%;
+	left: 52%;
 }
 
 [data-id='101'] p {
-	top: 450%;
-	left: 30%;
+	top: 490%;
+	left: 20%;
 }
 
 [data-id='102'] p {
-	top: -20%;
+	top: -25%;
 	left: 160%;
 }
 
 [data-id='103'] p {
-	top: 160%;
-	right: 70%;
+	top: 200%;
+	right: 83%;
 	box-shadow: 4px 4px 5px #FFFFED;
 }
 
 [data-id='104'] p {
-	bottom: -60%;
-	left: 165%;
+	bottom: -90%;
+	left: 170%;
 }
 
 
@@ -396,8 +396,8 @@ nav .nav-logo {
 
 #sound-portfolio .project-info {
 	width: 95%;
-	text-shadow: 1px 1px 2px #000;
-	color: white;
+	text-shadow: none;
+	color: #FFFEFA;
 }
 
 .project-info h6 {
