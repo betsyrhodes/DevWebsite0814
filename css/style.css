@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2.5em;
-	color: #424242;
+	color: #EDEBE1;
 }
 
 h2 {
@@ -162,7 +162,6 @@ nav .nav-logo {
 /* Intro Section Styles */
 
 #intro h1 {
-	color: #EDEBE1;
 	text-shadow: 2px 2px 4px #000;
 	margin: 34% 0;
 }
@@ -221,6 +220,7 @@ nav .nav-logo {
 	float: right;
 	margin: 2% 10% 40% auto;
 	padding: 0 .5% .5% .5%;
+	border-bottom: 2px solid rgba(237, 235, 225, 1);
 }
 
 #web-portfolio h5 {
@@ -335,9 +335,9 @@ nav .nav-logo {
 	display: inline-block;
 	float: left;
 	color: #BDBDBD;
-	margin: 1% auto 1% 12.5%;
+	margin: 1% auto 4% 12.5%;
 	padding: 0 .5% .5% .5%;
-	text-shadow: 1px 1px 3px #858585;
+	text-shadow: 1px 1px 2px #858585;
 	border-bottom: 2px solid rgba(133, 0, 0, .3);
 }
 
