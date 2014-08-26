@@ -3,16 +3,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 2.7em;
 	color: #EDEBE1;
 }
 
 h2 {
-	font-size: 1.9em;
+	font-size: 2.1em;
 	color: #540000;
 	text-shadow: 1px 1px 3px #A6A6A6;
 	padding: 0;
-	margin: 1% auto 1% 13.3%;
+	margin: 3% auto 1% 13.3%;
 	text-align: left;
 }
 
@@ -28,7 +28,7 @@ h5 {
 }
 
 h6 {
-	font-size: 1.1em;
+	font-size: 1.25em;
 	margin: 0;
 }
 
@@ -40,7 +40,7 @@ a {
 
 p {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.17em;
+	font-size: 1.3em;
 	text-align: justify;
 	margin: 0;
 }
@@ -62,7 +62,7 @@ td {
 .background {
 	width: 100%;
 	height: 100%;
-	padding: 2% 0;
+	padding: 0 0 2% 0;
 	background-position: center bottom;
 	background-repeat: none;
 	background-size: cover;
@@ -99,7 +99,7 @@ td {
 nav {
 	position: fixed;
 	top: 0;
-	z-index: 1;
+	z-index: 5;
 	width: 100%;
 	display: table;
 	background-color: rgba(225, 227, 237, 1);
@@ -183,7 +183,7 @@ nav .nav-logo {
 	display: inline-block;
 	width: 48%;
 	color: #2C2D33;
-	padding: 2.5% 0;
+	padding: 4.5% 0 2.5% 0;
 }
 
 #about .background {
@@ -195,7 +195,7 @@ nav .nav-logo {
 
 .project-info p {
 	font-family: 'Old Standard TT', serif;
-	font-size: 1.05em;
+	font-size: 1.2em;
 }
 
 .project-info {
@@ -213,14 +213,28 @@ nav .nav-logo {
 	margin: 3% 0;
 }
 
+.decoration {
+	position: absolute;
+	width: 55%;
+	height: auto;
+	right: 0;
+	opacity: .7;
+	-webkit-filter: blur(2px);
+	border-radius: 0 0 30% 40%;
+}
+
 /* Web Portfolio Styles */
 
 #web-portfolio h2 {
+	position: relative;
 	display: inline-block;
 	float: right;
-	margin: 2% 10% 40% auto;
+	margin: 4% 10% 40% auto;
 	padding: 0 .5% .5% .5%;
-	border-bottom: 2px solid rgba(237, 235, 225, 1);
+	background-color: rgba(255, 255, 237, 1);
+	box-shadow: 10px -10px 10px #FFFFED;
+	z-index: 1;
+	border-bottom: 3px solid rgba(237, 235, 225, 1);
 }
 
 #web-portfolio h5 {
@@ -234,35 +248,33 @@ nav .nav-logo {
 	height: auto;
 	padding: 2%;
 	background-color: rgba(255, 255, 237, 1);
-	box-shadow: -4px 2px 10px #FFFFED;
-	border-radius: 2%;
+	box-shadow: -4px -4px 5px #FFFFED;
+	border-radius: 3%;
 	text-align: center;
-/*	color: #2C2D33;
-	text-shadow: 1px 1px 2px #FFFFFA;*/
 }
 
 [data-id='101'] {
 	position: absolute;
-	top: 14%;
-	left: 16%;
+	top: 18%;
+	left: 16.4%;
 }
 
 [data-id='102'] {
 	position: absolute;
-	top: 57.5%;
-	left: 40.1%;
+	top: 60%;
+	left: 40.4%;
 }
 
 [data-id='103'] {
 	position: absolute;
-	top: 67.3%;
-	left: 79.3%;
+	top: 67.7%;
+	left: 79.8%;
 }
 
 [data-id='104'] {
 	position: absolute;
 	top: 88%;
-	left: 13.4%;
+	left: 13.85%;
 }
 
 #web-portfolio .background {
@@ -287,7 +299,7 @@ nav .nav-logo {
 }
 
 [data-id='101'] .picture {
-	top: 130%;
+	top: 133%;
 	right: 40%;
 }
 
@@ -303,29 +315,28 @@ nav .nav-logo {
 
 [data-id='104'] .picture {
 	bottom: 130%;
-	left: 60%;
+	left: 69%;
 }
 
 [data-id='101'] p {
-	top: 570%;
-	right: -70%;
+	top: 450%;
+	left: 30%;
 }
 
 [data-id='102'] p {
-	top: -12%;
+	top: -20%;
 	left: 160%;
-/*	bottom: 120%;
-	left: 215%;*/
 }
 
 [data-id='103'] p {
-	top: 225%;
-	right: 52%;
+	top: 160%;
+	right: 70%;
+	box-shadow: 4px 4px 5px #FFFFED;
 }
 
 [data-id='104'] p {
 	bottom: -60%;
-	left: 145%;
+	left: 165%;
 }
 
 
@@ -335,7 +346,7 @@ nav .nav-logo {
 	display: inline-block;
 	float: left;
 	color: #BDBDBD;
-	margin: 1% auto 4% 12.5%;
+	margin: 3% auto 6% 12.5%;
 	padding: 0 .5% .5% .5%;
 	text-shadow: 1px 1px 2px #858585;
 	border-bottom: 2px solid rgba(133, 0, 0, .3);
@@ -350,7 +361,7 @@ nav .nav-logo {
 	float: right;
 	width: 48%;
 	border-bottom: 2px solid rgba(250, 255, 252, .3);
-	margin: 8% 8% 2% 0;
+	margin: 10% 8% 4% 0;
 }
 
 #sound-bar img {
@@ -362,9 +373,9 @@ nav .nav-logo {
 
 #sound-portfolio .press-clips {
 	position: absolute;
-	bottom: 1%;
+	top: 17%;
 	width: 27%;
-	height: 86%;
+	height: 79%;
 	margin: 0 0 0 10.5%;
 	background-color: rgba(70, 70, 74, .3);
 	border-radius: 3%;
