@@ -17,6 +17,7 @@ var showPress = function() {
   var id = this.dataset.id;
   var project = $('.project-info[data-id='+ id +']');
   $(this).addClass("dim-bkgnd");
+  $('.logo').addClass("hidden");
   project.removeClass("hidden");
   // project.addClass("dim-bkgnd");
 };
@@ -27,4 +28,5 @@ var hidePress = function() {
   // project.removeClass("dim-bkgnd");
   project.addClass("hidden");
   $(this).removeClass("dim-bkgnd");
+  $('.logo').removeClass("hidden");
 };

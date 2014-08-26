@@ -91,7 +91,6 @@ td {
 
 .dim-bkgnd {
 	opacity: .5;
-	/*background-color: rgba(43, 43, 43, .6);*/
 }
 
 
@@ -137,24 +136,24 @@ li a:hover {
 	border-top: 2px solid #850000;
 }
 
-nav .logo {
+nav .nav-logo {
 	padding: .5% 0 .5% 4%;
 }
 
-.logo img {
+.nav-logo img {
 	width: 35px;
 	height: 35px;
 	vertical-align: middle;
 	margin-left: 2%;
 }
 
-.logo h3 {
+.nav-logo h3 {
 	display: inline;
 	vertical-align: middle;
 	padding: 0 3%;
 }
 
-.logo {
+.nav-logo {
 	position: relative;
 	display: table-cell;
 }
@@ -255,8 +254,9 @@ nav .logo {
 	float: left;
 	color: #BDBDBD;
 	margin: 1% auto 1% 12.5%;
+	padding: 0 .5% .5% .5%;
 	text-shadow: 1px 1px 3px #858585;
-	border-bottom: 2px solid #850000;
+	border-bottom: 2px solid rgba(133, 0, 0, .3);
 }
 
 #sound-portfolio .background {
@@ -287,6 +287,18 @@ nav .logo {
 	background-color: rgba(70, 70, 74, .3);
 	border-radius: 3%;
 	vertical-align: bottom;
+}
+
+.logo {
+	position: absolute;
+	left: 20%;
+	top: 5%;
+	width: auto;
+	height: 90%;
+	background-position: center bottom;
+	background-repeat: none;
+	background-size: cover;
+	opacity: .5;
 }
 
 #sound-portfolio .project-info {
